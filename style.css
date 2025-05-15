@@ -1,0 +1,41 @@
+body{
+    background-color: #F79B72;
+}
+
+.container{
+    height: 99vh;
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formcontianer{
+    display: flex;
+    height: 20rem;
+    width: 15rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border: solid 0.5rem #2A4759;
+    padding: 2px;
+    background-color: #2A4759;
+    border-radius: 1rem;
+
+}
+.inputform{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #DDDDDD;
+}
+.textinput{
+    height: 1rem;
+}
+.submitformbutton{
+    background-color: #F79B72;
+    color: #DDDDDD;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
